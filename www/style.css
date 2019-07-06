@@ -586,7 +586,7 @@ font-weight:300;
 margin:0;
 display:inline-block;
 letter-spacing:-0.5px;
-background-color:#ececec;
+background-color:#f8f8f8;
 color:#222222;
 }
 h2.page_subtitle{
@@ -883,13 +883,29 @@ padding:0px;
 margin:0px;
 }
 ul.social_share_edd li{
-width:41%;
+width:8%;
+text-align:center;
+display:inline-block;
+padding:10px 5px 0px 0px;
+margin:0px 20px 0px 5px;
+}
+ul.social_share_edd li h5{
+color:#FFFFFF;
+
+}
+ul.social_share_eddd{
+list-style:none;
+padding:0px;
+margin:0px;
+}
+ul.social_share_eddd li{
+width:42%;
 text-align:center;
 display:inline-block;
 padding:10px 0;
 margin:10px;
 }
-ul.social_share_edd li h5{
+ul.social_share_eddd li h5{
 color:#FFFFFF;
 
 }
@@ -1278,7 +1294,7 @@ clear:both;
 width:90%;
 padding:5% 5% 0 5%;
 margin:0px 0 10px 0;
-background-color:#f5f3eb;
+background-color:#f2faff;
 -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px
 }
 .comm_avatar{

@@ -5,7 +5,7 @@ var formData = $(theForm).serialize(),
 note = $('#Note');
 $.ajax({
 type: "POST",
-url: "send.php",
+url: "https://lianhealth.om/application/send.php",
 data: formData,
 success: function(response) {
 if ( note.height() ) {			

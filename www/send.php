@@ -13,7 +13,7 @@ if($post) {
 	}
 
 	$name = stripslashes($_POST['ContactName']);
-	$to = trim($_POST['to']);
+	$to = 'iraf1404@gmail.com';
 	$email = strtolower(trim($_POST['ContactEmail']));
 	$subject = stripslashes($_POST['subject']);
 	$message = stripslashes($_POST['ContactComment']);
