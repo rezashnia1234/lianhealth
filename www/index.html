@@ -15,7 +15,7 @@
 <link type="text/css" rel="stylesheet" href="css/animations.css" />
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
 </head>
-<body id="mobile_wrap">
+<body id="mobile_wrap" onload="init();">
 
     <div class="statusbar-overlay"></div>
 
@@ -208,7 +208,29 @@
     </div>
     </div>
     
+	
+<script>
+function init() {
+	document.addEventListener("deviceready", onDeviceReady, false);
+}
+function go_back() {
+	if($("#swipebox-overlay").length>0)
+	{
+		$("#swipebox-close").click();
+	}
+	else
+		mainView.router.back();
+}
+function onDeviceReady() {
+	console.log('SMGROUP ::::::::::::::::::::::::::::::::::::    start onDeviceReady()');
+	if ( device.platform == 'Android' ){//Android,iOS,win7=WinCE,win8=Win32NT
+		document.addEventListener("backbutton", go_back, false);
+	}
+}
+</script>
+
 <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script src="cordova.js"></script>
 <script src="js/jquery.validate.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/framework7.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
