@@ -234,6 +234,11 @@ function go_back() {
 	{
 		$("#swipebox-close").click();
 	}
+	else if(window.location.hash == "" || window.location.hash.indexOf("index.html") >= 0)
+	{
+		navigator.app.exitApp();
+		console.log("close app");
+	}
 	else
 		mainView.router.back();
 }
