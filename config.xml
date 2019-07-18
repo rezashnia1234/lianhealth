@@ -91,15 +91,15 @@
 	<plugin name="cordova-plugin-splashscreen" source="npm" />
 	
 
-	<plugin spec="https://github.com/ionic-team/cordova-plugin-ionic-keyboard.git" source="git" />
-	<plugin spec="https://github.com/ionic-team/cordova-plugin-ionic-webview.git" source="git" />
-	<plugin spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" source="git" />
+	<!-- <plugin spec="https://github.com/ionic-team/cordova-plugin-ionic-keyboard.git" source="git" /> -->
+	<!-- <plugin spec="https://github.com/ionic-team/cordova-plugin-ionic-webview.git" source="git" /> -->
+	<!-- <plugin spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" source="git" /> -->
 	<!-- <plugin spec="https://github.com/apache/cordova-plugin-camera.git" source="git" /> -->
-	<plugin spec="https://github.com/ionic-team/ionic-plugin-deeplinks.git" source="git" >
-		<param name="URL_SCHEME" value="cario" />
-		<param name="DEEPLINK_SCHEME" value="https" />
-		<param name="DEEPLINK_HOST" value="example.com" />	
-	</plugin>
+	<!-- <plugin spec="https://github.com/ionic-team/ionic-plugin-deeplinks.git" source="git" > -->
+		<!-- <param name="URL_SCHEME" value="cario" /> -->
+		<!-- <param name="DEEPLINK_SCHEME" value="https" /> -->
+		<!-- <param name="DEEPLINK_HOST" value="example.com" />	 -->
+	<!-- </plugin> -->
     <!-- Third party plugins -->
 	<preference name="android-build-tool" value="gradle" />
 	<!--
