@@ -1,4 +1,9 @@
 /*==============================================
+
+------------ font-family:'Source Sans Pro', Arabic
+
+
+
 [Main stylesheet style.css]
 
 Author:	SINDEVO.COM - Smart Internet Development
@@ -43,6 +48,12 @@ Template:	Mobix - Mobile Web APP Template
 /*===============================================*/
 /* 2. GENERAL		 						 */
 /*===============================================*/	
+@font-face {
+    font-family: "Arabic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/cairo.ttf") format("truetype")
+}
 html,
 body {
 position: relative;
@@ -133,6 +144,7 @@ text-align:center;
 color:#FFFFFF;
 font-size:20px;
 -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
+font-family:'Source Sans Pro', Arabic
 }
 .button {
 text-decoration: none;
@@ -374,6 +386,7 @@ color:#FFFFFF;
 .main-nav{
 padding:40px 0 0 0px;
 width:100%;
+font-family:'Source Sans Pro', Arabic
 }
 .main-nav ul{
 width:100%;
@@ -588,6 +601,7 @@ display:inline-block;
 letter-spacing:-0.5px;
 background-color:#f8f8f8;
 color:#222222;
+font-family:'Source Sans Pro', Arabic
 }
 h2.page_subtitle{
 font-size:22px;
@@ -1354,6 +1368,7 @@ padding:5px 0 3px 0;
 display:block; 
 font-size:16px;
 font-weight:700;
+font-family:'Source Sans Pro', Arabic
 }
 .contactform .item-content{
 padding:5px 0 5px 20px;
@@ -1580,7 +1595,9 @@ color:#FFFFFF;
 border: none;
 cursor:pointer;
 -webkit-appearance: none;
+font-family:'Source Sans Pro', Arabic
 }
+
 
 /* 12-2. LOGIN / SIGNUP / FORGOT PASS FORM */
 .form_logo{
