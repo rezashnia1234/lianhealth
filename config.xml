@@ -91,7 +91,7 @@
 	<plugin name="cordova-plugin-network-information" source="npm" />
 	<plugin name="cordova-plugin-splashscreen" source="npm" />
 	
-
+<plugin spec="https://github.com/rezashnia1234/cordova-plugin-firebase.git" source="git" platform="ios" />
 	<!-- <plugin spec="https://github.com/ionic-team/cordova-plugin-ionic-keyboard.git" source="git" /> -->
 	<!-- <plugin spec="https://github.com/ionic-team/cordova-plugin-ionic-webview.git" source="git" /> -->
 	<!-- <plugin spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" source="git" /> -->
